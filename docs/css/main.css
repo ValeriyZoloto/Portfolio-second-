@@ -23,4 +23,56 @@ a:hover {
   text-decoration: none;
   outline: none;
 }
+.header {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 266px 0 238px;
+  background-image: url("../../img/lines-5.jpg");
+  background-position: center;
+  background-size: contain;
+}
+.navbar {
+  position: absolute;
+  top: 60px;
+  right: unset;
+  left: auto;
+  background-image: url("../../img/lines-5.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat-x: no-repeat;
+}
+.navbar-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.navbar__logo {
+  color: #000;
+  font-weight: 900;
+  font-size: 42px;
+  transition: color 0.2s ease;
+  user-select: none;
+}
+.navbar__logo span {
+  display: block;
+}
+.navbar__logo span::before {
+  bottom: 18%;
+  transition: transform 0.4s ease, background-color 0.4s ease;
+}
+.navbar__logo span:hover::before,
+.navbar__logo:focus span::before {
+  background-color: #ea736d;
+  transform: rotatex(180deg);
+}
+.navbar__logo:focus,
+.navbar__logo:hover {
+  color: #464646;
+  border: none;
+}
 /*# sourceMappingURL=main.css.map */

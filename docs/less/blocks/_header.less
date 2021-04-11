@@ -1,0 +1,53 @@
+.header {
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+	padding: 266px 0 238px;
+	background-image: url("../../img/lines-5.jpg");
+	background-position: center;
+	background-size: contain;
+}
+
+.navbar {
+	position: absolute;
+	top: 60px;
+	right: unset;
+	left: auto;
+	background-image: url("../../img/lines-5.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat-x: no-repeat;
+}
+.navbar-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.navbar__logo {
+	color: #000;
+	font-weight: 900;
+	font-size: 42px;
+	transition: color 0.2s ease;
+	user-select: none;
+	span {
+		display: block;
+	}
+	span::before {
+		bottom: 18%;
+		transition: transform 0.4s ease, background-color 0.4s ease;
+	}
+	span:hover::before,
+	&:focus span::before {
+		background-color: @scarlet;
+		transform: rotatex(180deg);
+	}
+	&:focus,
+	&:hover {
+		color: @gray;
+		border: none;
+	}
+}
