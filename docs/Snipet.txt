@@ -1,1 +1,46 @@
 https://valeriyzoloto.github.io/Portfolio-second-/
+
+.Навигация {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1600px;
+  height: 185px;
+  z-index: 12;
+}
+.Контакты {
+  font-size: 20px;
+  font-family: "Mplus 1p Bold";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 878.422px;
+  top: 79.5px;
+  z-index: 11;
+}
+.Работы {
+  font-size: 20px;
+  font-family: "Mplus 1p Bold";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: right;
+  position: absolute;
+  left: 725.422px;
+  top: 79px;
+  z-index: 10;
+}
+.Главная {
+  font-size: 20px;
+  font-family: "Mplus 1p Bold";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: right;
+  position: absolute;
+  left: 565.422px;
+  top: 79.5px;
+  z-index: 9;
+}
