@@ -1,0 +1,158 @@
+.portfolio {
+  padding-top: 45px;
+  padding-bottom: 100px;
+  margin: auto;
+  background-image: url(../../img/portfolio/bg/bgportf.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  overflow: hidden;
+  // Планшет
+  @media (min-width: 768px) {
+    padding-top: 61px;
+    padding-bottom: 75px;
+  }
+
+  // Десктоп
+  @media (min-width: 1200px) {
+    padding-top: 99px;
+    padding-bottom: 0;
+  }
+}
+
+.bottom-line {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left: -5px;
+    right: -5px;
+    height: 12px;
+    background-color: @main;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  &:hover:after {
+    background-color: @scarlet;
+  }
+
+  // Планшет
+  @media (min-width: 768px) {
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 12px;
+      left: -5px;
+      right: -5px;
+      height: 12px;
+      
+      z-index: -1;
+      transition: 0.5s;
+    }
+  }
+
+  // Десктоп
+  @media (min-width: 1200px) {
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 15px;
+      left: -5px;
+      right: -5px;
+      height: 12px;
+      
+      z-index: -1;
+      transition: 0.5s;
+    }
+  }
+}
+.title-portf {
+  margin-bottom: 41px;
+
+  @media (min-width: 576px) {
+    margin-left: 125px;
+  }
+
+  // Планшет
+  @media (min-width: 768px) {
+    margin-bottom: 43px;
+    margin-left: 0;
+  }
+
+  // Десктоп
+  @media (min-width: 1200px) {
+    margin-bottom: 51px;
+    text-align-last: left;
+  }
+}
+.title-portf1{
+    margin-bottom: 41px;
+
+    @media (min-width: 576px) {
+      margin-left: 125px;
+    }
+  
+    // Планшет
+    @media (min-width: 768px) {
+      margin-bottom: 43px;
+      margin-left: 0;
+    }
+  
+    // Десктоп
+    @media (min-width: 1200px) {
+      margin-bottom: 51px;
+    }  
+}
+
+.portfolio-works {
+  display: none;
+
+  // Планшет
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 45px;
+  }
+
+  // Десктоп
+  @media (min-width: 1200px) {
+    margin-bottom: 46px;
+  }
+}
+.portfolio-block-toggle_item {
+  // Планшет
+  @media (min-width: 768px) {
+    margin-right: 33px;
+    font-size: 24px;
+    font-weight: 700;
+    color: @toggl;
+    border: none;
+    background-color: @bgportf;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: @main;
+    }
+    &:active {
+      color: @main;
+    }
+  }
+
+  // Десктоп
+  @media (min-width: 1200px) {
+    margin-right: 68px;
+    font-size: 28px;
+  }
+}
