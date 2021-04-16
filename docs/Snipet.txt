@@ -7,3 +7,5 @@ https://valeriyzoloto.github.io/Portfolio-second-/
 //Десктоп
 @media (min-width: 1200px) {
 }
+
+

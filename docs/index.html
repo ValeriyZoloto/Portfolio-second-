@@ -4,12 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Портфолио главная страница</title>
 		<link rel="shortcut icon" href="Favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="./fonts/mplus1p.css" />
 		<link rel="stylesheet" href="./libs/fontawesome css/all.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
 		<link rel="stylesheet" href="./css/main.css" />
-		<title>Портфолио главная страница</title>
 	</head>
 	<body>
 		<ul id="page-nav">
@@ -279,6 +280,7 @@
 			<!--// Контент шапки -->
 		</header>
 		<!--// Секция Header -->
+
 		<!-- Секция Портфолио -->
 		<section class="portfolio" id="portfolio">
 			<!-- container -->
@@ -454,18 +456,15 @@
 								href="https://valeriyzoloto.github.io/internet-shop/"
 								target="_blank"
 							>
-								<img
-									src="./img/portfolio/cards/shop.png"
-									alt="Qathjar"
-								/>
+								<img src="./img/portfolio/cards/shop.png" alt="Qathjar" />
 								<div class="more-btn">Смотреть проект</div>
 							</a>
-                            <a
+							<a
 								href="https://valeriyzoloto.github.io/internet-shop/"
 								target="_blank"
 							>
 								<div class="portfolio-card_descrip">
-									<h3>Верстка сайта </h3>
+									<h3>Верстка сайта</h3>
 									<p>Верстка интернет-магазина</p>
 								</div>
 							</a>
@@ -473,6 +472,9 @@
 						<!--// portfolio-card-->
 					</div>
 					<!--// portfolio-projects -->
+					<div>
+						<a href="#works" class="watch-works">Смотреть все работы</a>
+					</div>
 				</div>
 				<!--  // Контент карточки -->
 			</div>
@@ -480,17 +482,138 @@
 		</section>
 		<!--// Секция Портфолио -->
 
+		<!-- Секция Как я работаю -->
+		<!-- <section class="how-work planning" id="howwork">
+			<!-- container -->
+			<div class="container">
+				<!-- howwork-content -->
+				<div class="howwork-content">
+					<h3 class="item-title">Как я работаю</h3>
+
+					<!--  Контент с иконками -->
+					<div class="work-content">
+						<!-- Иконка с текстом -->
+						<div id="pc1" class="work-content_item">
+							<div class="work-item-icon">
+								<img src="./img/icons-how/layers.png" alt="Иконка" />
+							</div>
+							<div
+								class="item-text"
+								data-aos="fade-right"
+								data-aos-offset="300"
+								data-aos-duration="1000"
+							>
+								<span class="hover">Оцениваю макет</span>
+								<p>
+									Оцениваю объем работы, сложность, нюансы. Задаю
+									вопросы.
+								</p>
+								<span>Время: 2 &ndash; 4 часа</span>
+							</div>
+						</div>
+
+						<!-- Иконка с текстом -->
+						<div id="pc2" class="work-content_item">
+							<div class="work-item-icon">
+								<img src="./img/icons-how/chart.png" alt="Иконка" />
+							</div>
+							<div
+								class="item-text"
+								data-aos="fade-left"
+								data-aos-offset="300"
+								data-aos-duration="1000"
+							>
+								<span class="hover">ТЗ,смета и график работ</span>
+								<p>
+									Согласовываем техническое задание и график работ по
+									проекту. Осмечиваю стоимость по этапам работы.
+								</p>
+								<span>Время: 2 &ndash; 4 часа</span>
+							</div>
+						</div>
+
+						<!-- Иконка с текстом -->
+						<div id="pc3" class="work-content_item">
+							<div class="work-item-icon">
+								<img src="./img/icons-how/hours.png" alt="Иконка" />
+							</div>
+							<div
+								class="item-text"
+								data-aos="fade-right"
+								data-aos-offset="300"
+								data-aos-duration="1000"
+							>
+								<span class="hover">Вы держите руку на пульсе</span>
+								<p>
+									Выдаю клиенту доступ к GitHub репозиторию. Вы в любое
+									время можете видеть актуальное состояние проекта и
+									задач.
+								</p>
+								<span>Время: 2 &ndash; 4 часа</span>
+							</div>
+						</div>
+
+						<!-- Иконка с текстом -->
+						<div id="pc4" class="work-content_item">
+							<div id="pc4-anim" class="work-item-icon">
+								<img src="./img/icons-how/code.png" alt="Иконка" />
+							</div>
+							<div
+								class="item-text"
+								data-aos="fade-left"
+								data-aos-offset="300"
+								data-aos-duration="1000"
+							>
+								<span class="hover">Выполняю каждый этап</span>
+								<p>
+									Поочередно выполняю каждый этап работы. Передаю
+									результаты. Заказчик производит поэтапную оплату.
+								</p>
+								<span>Время: 2 &ndash; 4 часа</span>
+							</div>
+						</div>
+
+						<!-- Иконка с текстом -->
+						<div id="pc5" class="work-content_item">
+							<div class="work-item-icon">
+								<img src="./img/icons-how/diamond.png" alt="Иконка" />
+							</div>
+							<div
+								class="item-text"
+								data-aos="fade-right"
+								data-aos-offset="300"
+								data-aos-duration="1000"
+							>
+								<span class="hover">Финальное ревью проекта</span>
+								<p>
+									Проект готов. Финальное ревью и полировка до
+									идеального состояния. Передаю файлы проекта, заливаю
+									сайт на хостинг заказчика.
+								</p>
+								<span>Время: 2 &ndash; 4 часа</span>
+							</div>
+						</div>
+					</div>
+					<!--//  Контент с иконками -->
+				</div>
+				<!--// howwork-content -->
+			</div>
+			<!--// container -->
+		</section> 
+		<!--// Секция Как я работаю -->
+
 		<script src="./libs/jQuery/jquery-3.6.0.min.js"></script>
 		<script src="./libs/jquery.validate/jquery.validate/jquery.validate.js"></script>
 		<script src="./libs/SmoothScroll.js"></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script src="./libs/nav/nav.js"></script>
-		<script src="./libs/typed/typed.min.js"></script>
+        <script src="libs/typed/typed.min.js"></script>
+
+
 		<script>
 			AOS.init();
 		</script>
 		<script src="./libs/mixitup3/mixitup.min.js"></script>
-
+		<script src="./libs/nav/nav.js"></script>
 		<script src="./js/main.js"></script>
 	</body>
 </html>
