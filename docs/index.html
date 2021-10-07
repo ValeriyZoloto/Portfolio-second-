@@ -31,26 +31,21 @@
   </ul>
   <div id="overlay"></div>
 
-  <!-- Секция Header -->
   <header class="header" id="header">
-    <!-- Фиксированное меню -->
     <div class="fix-menu">
-      <!-- Навигация -->
-      <div class="header-nav">
-        <!-- логотип -->
-        <nav class="header-logo">
+      <ul class="header-nav">
+        <li class="header-logo">
           <a href="https://valeriyzoloto.github.io/Portfolio/." class="logo">ВЗ</a>
-        </nav>
-        <!--// логотип -->
+        </li>
+        <li class="header-menu">
+          <a class="header-link decktop" href="index.html">Главная</a>
 
-        <!-- header-menu -->
-        <nav class="header-menu">
-          <a href="index.html" class="header-link decktop">Главная</a>
-          <a href="Portfolio.html" class="header-link more-line"
+          <a class="header-link more-line" href="Portfolio.html"
             target="_blank">Работы</a>
-          <a href="Contacts.html" class="header-link more-line"
+
+          <a class="header-link more-line" href="Contacts.html"
             target="_blank">Контакты</a>
-          <!-- sidebar с иконками -->
+
           <div class="sidebar">
             <a href="viber://chat?number=%2B79213091925" class="sidebar-icons icons-vb">
               <i class="fab fa-viber"></i>
@@ -59,14 +54,11 @@
               <i class="fab fa-whatsapp"></i>
             </a>
           </div>
-          <!--// sidebar с иконками -->
           <a href="mailto:leshikzoloto@gmail.com"
             class="sidebar-email">leshikzoloto@gmail.com</a>
-        </nav>
-        <!--// header-menu -->
+        </li>
 
-        <!-- header-icons -->
-        <nav class="header-icons">
+        <li class="header-icons">
           <a href="whatsapp://chat?number=%2B7213091925"
             class="icons-item icons-item__wp-up">
             <svg aria-hidden="true" focusable="false" data-prefix="fab"
@@ -96,49 +88,32 @@
               </path>
             </svg>
           </a>
-        </nav>
-        <!--// header-icons -->
-
-        <!-- Акордеон toggle-menu -->
-        <div class="toggle-menu">
+        </li>
+        <li class="toggle-menu">
           <span></span>
-        </div>
-
-        <!-- Акордеон toggle-menu -->
-      </div>
-      <!--// Навигация -->
+        </li>
+      </ul>
     </div>
-    <!--// Фиксированное меню -->
 
-    <!-- Контент шапки -->
-    <!-- container -->
     <div class="container">
-      <!-- header-content" -->
       <div class="header-content">
-        <!-- avatar-photo -->
         <div class="header-foto">
           <img src="./img/header/avatar.jpg" class="my-foto" alt="Мое фото" />
         </div>
-        <!--// avatar-photo -->
 
-        <!-- header-deskription -->
         <div class="header-desk">
-          <!-- header-name -->
           <h1 class="header-name">
             <span class="my-name">Валерий </span> <br />
             <span class="my-name">Золотухин</span>
           </h1>
-          <!--// header-name -->
 
-          <!-- header-text -->
           <div class="header-text">
             <p>
               Верстальщик сайтов, веб-разработчик. Оперативная верстка.
               Работаю с соблюдением сроков и выполнением ТЗ.
             </p>
           </div>
-          <!--// header-text -->
-          <!-- header-button -->
+
           <div class="header-button">
             <a href="#" class="button_main button-1" download="Резюме">
               Познакомиться
@@ -146,28 +121,19 @@
 
             <a href="#" class="button_main button-2"> Контакты </a>
           </div>
-          <!--// header-button -->
         </div>
-        <!--// header-deskription -->
       </div>
-      <!--// header-content" -->
     </div>
-    <!--// container -->
-    <!-- header-img -->
     <div class="header-img">
       <img src="./img/header/bg1.png" alt="Обои" />
     </div>
-    <!--// header-img -->
 
-    <!-- container -->
     <div class="container">
-      <!-- header-skills -->
+
       <div class="header-skills" data-aos="zoom-in" data-aos-offset="200"
         data-aos-duration="1000" id="meet">
-        <!-- skills -->
         <div class="skills" id="skills">
           <h3 class="title3">Что я умею:</h3>
-          <!-- skills-list -->
           <ul class="skills-list">
             <li class="skills-list_item">
               pixel perfect, полное соответствие макету.
@@ -181,21 +147,15 @@
             </li>
             <li class="skills-list_item">с Bootstrap и без него.</li>
           </ul>
-          <!--// skills-list -->
-          <!-- header-button -->
           <div class="header-button">
             <a href="#" class="button_main button-1 remark">
               Смотреть работы
             </a>
           </div>
-          <!--// header-button -->
         </div>
-        <!--// skills -->
-        <!-- comminication -->
         <div class="comminication">
           <h3 class="title3">На связи:</h3>
 
-          <!-- icons more -->
           <div class="icons more">
             <a href="whatsapp://chat?number=%2B79213091925" class="icons_item icons-wp">
               <i class="fab fa-whatsapp"></i>
@@ -205,31 +165,20 @@
               <i class="fab fa-viber"></i>
             </a>
           </div>
-          <!--// icons more -->
           <a href="leshikzoloto@gmail.com" class="skills-email">leshikzoloto@gmail.com
           </a>
         </div>
-        <!--// comminication -->
       </div>
-      <!--// header-skills -->
     </div>
-    <!--// container -->
-    <!--// Контент шапки -->
   </header>
-  <!--// Секция Header -->
 
-  <!-- Секция Портфолио -->
   <section class="portfolio" id="portfolio">
-    <!-- container -->
     <div class="container">
-      <!-- Заголовок секции -->
       <div class="title2 title-portf">
         <span class="bottom-line">Портфолио</span>
       </div>
-      <!--// Заголовок секции -->
-      <!-- portfolio-works -->
+
       <div class="portfolio-works">
-        <!-- portfolio-works-toggle -->
         <div class="portfolio-works-toggle">
           <button id="works" class="portfolio-block-toggle_item control-active"
             data-filter="all">
@@ -248,14 +197,11 @@
             Frontend
           </button>
         </div>
-        <!--// portfolio-works-toggle -->
       </div>
-      <!--// portfolio-works -->
-      <!-- Контент -карточки -->
+
       <div class="portfolio-cards_content">
-        <!-- portfolio-projects -->
+
         <div id="portfolio-projects">
-          <!-- portfolio-card -->
           <div class="portfolio-card portfolio-card--big mix frontend">
             <a class="portfolio-card_poster"
               href="https://valeriyzoloto.github.io/Marcho-study/ " target="_blank">
@@ -270,9 +216,7 @@
               </div>
             </a>
           </div>
-          <!--// portfolio-card -->
 
-          <!-- portfolio-card -->
           <div class="portfolio-card portfolio-card--big mix frontend boots">
             <a class="portfolio-card_poster" href="https://valeriyzoloto.github.io/UNIT/"
               target="_blank">
@@ -286,9 +230,6 @@
               </div>
             </a>
           </div>
-          <!--// portfolio-card -->
-
-          <!-- portfolio-card -->
           <div class="portfolio-card portfolio-card--big mix frontend">
             <a class="portfolio-card_poster"
               href="https://valeriyzoloto.github.io/desire/" target="_blank">
@@ -302,25 +243,21 @@
               </div>
             </a>
           </div>
-          <!--// portfolio-card -->
 
-          <!-- portfolio-card -->
           <div class="portfolio-card portfolio-card--big mix frontend boots">
-            <a class="portfolio-card_poster" href=" https://ValeriyZoloto.github.io."
-              target="_blank">
-              <img src="./img/portfolio/cards/Uber.png" alt="Сайт Uber" />
+            <a class="portfolio-card_poster"
+              href=" https://valeriyzoloto.github.io/Buhone/" target="_blank">
+              <img src="./img/portfolio/cards/buhOne.png" alt="Сайт BuhOne" />
               <div class="more-btn">Смотреть проект</div>
             </a>
-            <a href="https://ValeriyZoloto.github.io." target="_blank">
+            <a href="https://valeriyzoloto.github.io/Buhone/" target="_blank">
               <div class="portfolio-card_descrip">
-                <h3>Верстка Uber</h3>
+                <h3>Верстка BuhOne</h3>
                 <p>Верстка лендинга</p>
               </div>
             </a>
           </div>
-          <!--// portfolio-card-->
 
-          <!-- portfolio-card -->
           <div class="portfolio-card portfolio-card--big mix boots">
             <a class="portfolio-card_poster"
               href="https://valeriyzoloto.github.io/Shop-Fresh-ok/index.html"
@@ -336,8 +273,7 @@
               </div>
             </a>
           </div>
-          <!--// portfolio-card-->
-          <!-- portfolio-card -->
+
           <div class="portfolio-card portfolio-card--big mix frontend boots">
             <a class="portfolio-card_poster"
               href="https://valeriyzoloto.github.io/internet-shop/" target="_blank">
@@ -351,30 +287,22 @@
               </div>
             </a>
           </div>
-          <!--// portfolio-card-->
+
         </div>
-        <!--// portfolio-projects -->
+
         <div>
           <a href="#works" class="watch-works">Смотреть все работы</a>
         </div>
       </div>
-      <!--  // Контент карточки -->
     </div>
-    <!--// container -->
   </section>
-  <!--// Секция Портфолио -->
 
-  <!-- Секция Как я работаю -->
   <section class="how-work planning" id="howwork">
-    <!-- container -->
     <div class="container">
-      <!-- howwork-content -->
       <div class="howwork-content">
         <h3 class="item-title">Как я работаю</h3>
 
-        <!--  Контент с иконками -->
         <div class="work-content">
-          <!-- Иконка с текстом -->
           <div id="pc1" class="work-content_item">
             <div class="work-item-icon">
               <img src="./img/icons-how/layers.png" alt="Иконка" />
@@ -390,7 +318,7 @@
             </div>
           </div>
 
-          <!-- Иконка с текстом -->
+
           <div id="pc2" class="work-content_item">
             <div class="work-item-icon">
               <img src="./img/icons-how/chart.png" alt="Иконка" />
@@ -406,7 +334,7 @@
             </div>
           </div>
 
-          <!-- Иконка с текстом -->
+
           <div id="pc3" class="work-content_item">
             <div class="work-item-icon">
               <img src="./img/icons-how/hours.png" alt="Иконка" />
@@ -423,7 +351,7 @@
             </div>
           </div>
 
-          <!-- Иконка с текстом -->
+
           <div id="pc4" class="work-content_item">
             <div id="pc4-anim" class="work-item-icon">
               <img src="./img/icons-how/code.png" alt="Иконка" />
@@ -439,7 +367,7 @@
             </div>
           </div>
 
-          <!-- Иконка с текстом -->
+
           <div id="pc5" class="work-content_item">
             <div class="work-item-icon">
               <img src="./img/icons-how/diamond.png" alt="Иконка" />
@@ -456,23 +384,16 @@
             </div>
           </div>
         </div>
-        <!--//  Контент с иконками -->
       </div>
-      <!--// howwork-content -->
     </div>
-    <!--// container -->
   </section>
-  <!--// Секция Как я работаю -->
 
-  <!--  Секция-Контакты  -->
   <section class="contacts" id="contacts">
     <div class="container">
       <div class="title2 title-contacts">
         <h3 class="title2"><span>Контакты</span></h3>
       </div>
-      <!-- Contacts-content -->
       <div class="contacts-content">
-        <!-- Левая колонка -->
         <div class="contacts-descrip">
           <div class="contacts-descrip_text">
             <p>
@@ -508,7 +429,7 @@
             </a>
           </div>
         </div>
-        <!-- Правая колонка -->
+
         <div class="form-column">
           <form class="contacts-form" data-aos="zoom-in" data-aos-offset="300"
             data-aos-duration="1000" id="contact-form">
@@ -547,12 +468,9 @@
           <div id="answer"></div>
         </div>
       </div>
-      <!-- // Contacts-content -->
     </div>
   </section>
-  <!--  Секция-Контакты  -->
 
-  <!-- Подвал -->
   <footer class="footer">
     <div class="container">
       <div class="copy">
