@@ -9,3 +9,4 @@ https://valeriyzoloto.github.io/Portfolio-second-/
 }
 
 
+git commit -m "Your short summary about the commit"
